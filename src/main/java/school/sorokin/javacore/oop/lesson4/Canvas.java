@@ -2,7 +2,7 @@ package school.sorokin.javacore.oop.lesson4;
 
 public class Canvas {
     public static void main(String[] args) {
-        Shape[] массив = {new Circle(), new Square(), new Triangle()};
+        Shape[] массив = {new Circle(), new Square()};
         for (Shape элемент : массив) {
             элемент.draw();
         }
@@ -15,10 +15,6 @@ public class Canvas {
         System.out.println();
         kvdr.calculateArea();
 
-        Shape treyl = new Triangle();
-        treyl.a = 3;
-        treyl.h = 5;
-        System.out.println();
-        treyl.calculateArea();
+
     }
 }
